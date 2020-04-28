@@ -66,7 +66,7 @@ public class HelloWorldModel {
 
         message = "Hello Git modules !\n"
             + "Resource type is: " + resourceType + "\n"
-            + "Current page path is:  " + currentPagePath + "\n"
+            + "Current page for latest release is:  " + currentPagePath + "\n"
             + "This is instance: " + settings.getSlingId() + "\n";
     }
 
