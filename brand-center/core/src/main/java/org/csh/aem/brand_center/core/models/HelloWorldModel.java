@@ -36,8 +36,9 @@ import java.util.Optional;
 
 /**
  * 
- * @author harini.kandadai1
+ * @author harini.kandadai
  * @since 2020
+ * @version release
  *
  */
 @Model(adaptables = Resource.class)
@@ -65,7 +66,7 @@ public class HelloWorldModel {
 
         message = "Hello Git modules !\n"
             + "Resource type is: " + resourceType + "\n"
-            + "Current page is:  " + currentPagePath + "\n"
+            + "Current page path is:  " + currentPagePath + "\n"
             + "This is instance: " + settings.getSlingId() + "\n";
     }
 
